@@ -1,0 +1,49 @@
+feature,class,distribution,parameter_1,parameter_2,unit,source_type,notes
+age,Normal,normal,45,12,years,estimated,Illustrative target parameters
+age,Hypertension,normal,58,12,years,estimated,Illustrative target parameters
+age,Arrhythmia,normal,55,14,years,estimated,Illustrative target parameters
+age,Valve Disorder,normal,52,14,years,estimated,Illustrative target parameters
+sex,Normal,bernoulli,0.5,,binary,estimated,Probability of male encoded as 1
+sex,Hypertension,bernoulli,0.55,,binary,estimated,Probability of male encoded as 1
+sex,Arrhythmia,bernoulli,0.5,,binary,estimated,Probability of male encoded as 1
+sex,Valve Disorder,bernoulli,0.5,,binary,estimated,Probability of male encoded as 1
+systolic_bp,Normal,normal,118,10,mmHg,estimated,Illustrative target parameters
+systolic_bp,Hypertension,normal,145,18,mmHg,estimated,Approximate target requiring source verification
+systolic_bp,Arrhythmia,normal,125,15,mmHg,estimated,Illustrative target parameters
+systolic_bp,Valve Disorder,normal,125,15,mmHg,estimated,Illustrative target parameters
+diastolic_bp,Normal,normal,76,8,mmHg,estimated,Illustrative target parameters
+diastolic_bp,Hypertension,normal,80,11,mmHg,estimated,Approximate target requiring source verification
+diastolic_bp,Arrhythmia,normal,78,10,mmHg,estimated,Illustrative target parameters
+diastolic_bp,Valve Disorder,normal,78,10,mmHg,estimated,Illustrative target parameters
+heart_rate,Normal,normal,72,10,bpm,estimated,Illustrative target parameters
+heart_rate,Hypertension,normal,78,12,bpm,estimated,Illustrative target parameters
+heart_rate,Arrhythmia,normal,95,20,bpm,estimated,Illustrative target parameters
+heart_rate,Valve Disorder,normal,82,15,bpm,estimated,Illustrative target parameters
+max_heart_rate,Normal,normal,160,15,bpm,estimated,Illustrative target parameters
+max_heart_rate,Hypertension,normal,145,18,bpm,estimated,Illustrative target parameters
+max_heart_rate,Arrhythmia,normal,140,22,bpm,estimated,Illustrative target parameters
+max_heart_rate,Valve Disorder,normal,135,20,bpm,estimated,Illustrative target parameters
+cholesterol,Normal,normal,185,30,mg/dL,estimated,Illustrative target parameters
+cholesterol,Hypertension,normal,210,35,mg/dL,estimated,Illustrative target parameters
+cholesterol,Arrhythmia,normal,200,35,mg/dL,estimated,Illustrative target parameters
+cholesterol,Valve Disorder,normal,195,35,mg/dL,estimated,Illustrative target parameters
+fasting_blood_sugar,Normal,bernoulli,0.1,,binary,estimated,Probability of elevated fasting sugar encoded as 1
+fasting_blood_sugar,Hypertension,bernoulli,0.2,,binary,estimated,Probability of elevated fasting sugar encoded as 1
+fasting_blood_sugar,Arrhythmia,bernoulli,0.15,,binary,estimated,Probability of elevated fasting sugar encoded as 1
+fasting_blood_sugar,Valve Disorder,bernoulli,0.15,,binary,estimated,Probability of elevated fasting sugar encoded as 1
+exercise_angina,Normal,bernoulli,0.1,,binary,estimated,Probability of exercise-induced angina
+exercise_angina,Hypertension,bernoulli,0.2,,binary,estimated,Probability of exercise-induced angina
+exercise_angina,Arrhythmia,bernoulli,0.3,,binary,estimated,Probability of exercise-induced angina
+exercise_angina,Valve Disorder,bernoulli,0.3,,binary,estimated,Probability of exercise-induced angina
+st_depression,Normal,lognormal,0.1,0.3,mm,estimated,Illustrative positive-value parameters; clarify parameterization in code
+st_depression,Hypertension,lognormal,0.2,0.4,mm,estimated,Illustrative positive-value parameters; clarify parameterization in code
+st_depression,Arrhythmia,lognormal,0.5,0.6,mm,estimated,Illustrative positive-value parameters; clarify parameterization in code
+st_depression,Valve Disorder,lognormal,0.4,0.5,mm,estimated,Illustrative positive-value parameters; clarify parameterization in code
+chest_pain_type,Normal,categorical,0.7;0.1;0.1;0.1,,category,estimated,Probabilities for categories 0;1;2;3
+chest_pain_type,Hypertension,categorical,0.4;0.2;0.2;0.2,,category,estimated,Probabilities for categories 0;1;2;3
+chest_pain_type,Arrhythmia,categorical,0.3;0.2;0.3;0.2,,category,estimated,Probabilities for categories 0;1;2;3
+chest_pain_type,Valve Disorder,categorical,0.3;0.2;0.2;0.3,,category,estimated,Probabilities for categories 0;1;2;3
+major_vessels,Normal,categorical,0.8;0.15;0.04;0.01,,count,estimated,Probabilities for 0;1;2;3 vessels
+major_vessels,Hypertension,categorical,0.6;0.25;0.1;0.05,,count,estimated,Probabilities for 0;1;2;3 vessels
+major_vessels,Arrhythmia,categorical,0.6;0.25;0.1;0.05,,count,estimated,Probabilities for 0;1;2;3 vessels
+major_vessels,Valve Disorder,categorical,0.65;0.2;0.1;0.05,,count,estimated,Probabilities for 0;1;2;3 vessels
